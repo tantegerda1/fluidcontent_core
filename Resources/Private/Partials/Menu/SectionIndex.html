@@ -7,7 +7,7 @@
 				<li>
 					<v:tag name="h{settings.content.settings.header.type -> v:or(alternative: record.header_layout)
 						-> v:or(alternative: settings.header.type) -> v:math.sum(b: 1)}">
-						<f:link.page pageUid="{menuPageData.uid}">{menuPageData.linktext}</f:link.page>
+						<v:page.link pageUid="{menuPage}" />
 					</v:tag>
 					<f:render partial="Content/SectionIndex" arguments="{menuPage: menuPage}" />
 				</li>

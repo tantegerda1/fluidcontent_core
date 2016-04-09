@@ -3,7 +3,7 @@
 
 <f:layout name="Default" />
 
-<f:if condition="{settings.content.settings.container.addAnchor}">
+<f:if condition="{v:variable.get(name: 'settings.content.settings.container.addAnchor') -> v:or(alternative: record.sectionIndex)}">
 	<a name="c{record.uid}"></a>
 </f:if>
 <v:tag name="{v:variable.get(name: 'settings.container.types.{record.CType}') -> v:or(alternative: settings.container.types.default)}"
