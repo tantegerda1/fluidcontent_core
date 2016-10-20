@@ -11,7 +11,7 @@
     "require-dev": {
         "fluidtypo3/flux": "dev-development",
         "fluidtypo3/vhs": "dev-development",
-        "fluidtypo3/development": "*"
+        "fluidtypo3/development": "^3.0"
     },
     "autoload": {
         "psr-4": {

@@ -12,7 +12,7 @@ use FluidTYPO3\FluidcontentCore\Controller\CoreContentController;
 use FluidTYPO3\FluidcontentCore\Provider\CoreContentProvider;
 use FluidTYPO3\FluidcontentCore\Service\ConfigurationService;
 use FluidTYPO3\Flux\Service\FluxService;
-use TYPO3\CMS\Core\Tests\Unit\Resource\BaseTestCase;
+use TYPO3\CMS\Core\Tests\BaseTestCase;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\CMS\Extbase\Object\ObjectManager;
 use TYPO3\CMS\Extbase\Reflection\ObjectAccess;
