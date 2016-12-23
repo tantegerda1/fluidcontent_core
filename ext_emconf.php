@@ -36,8 +36,8 @@ $EM_CONF[$_EXTKEY] = array(
 		'depends' => array(
 			'typo3' => '7.6.0-7.6.99',
 			'cms' => '',
-			'flux' => '7.2.0-7.3.99',
-			'vhs' => '2.1.0-2.4.99',
+			'flux' => '7.2.0-7.4.99',
+			'vhs' => '2.1.0-3.1.99',
 		),
 		'conflicts' => array(
 			'css_styled_content' => '',
